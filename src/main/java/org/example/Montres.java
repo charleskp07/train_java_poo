@@ -5,10 +5,16 @@ public class Montres {
     private int hours;
     private int minutes;
 
+
+
+
     public Montres(int hours, int minutes) {
         this.hours = hours;
         this.minutes = minutes;
     }
+
+
+
 
     public int getHours() {
         return hours;
@@ -27,10 +33,7 @@ public class Montres {
     }
 
     public String give_time () {
-        return ("13 : 45");
+        return (this.hours=13 + " : " + this.minutes=45);
     }
 
-    public String give_time_2 () {
-        return ("13 : 45");
-    }
 }

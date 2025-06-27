@@ -2,18 +2,19 @@ package org.example;
 
 public class Staff {
 
-    private String names;
+    private String personal_name;
 
+//    public Staff() { personal_name=null ;}
 
     public Staff(String names) {
-        this.names = names;
+        this.personal_name = names;
     }
 
     public String getNames() {
-        return names;
+        return personal_name;
     }
 
     public void setNames(String names) {
-        this.names = names;
+        this.personal_name = names;
     }
 }
